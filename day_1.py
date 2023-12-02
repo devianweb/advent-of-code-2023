@@ -31,18 +31,11 @@ def find_numbers(value):
 def calibrtion_decoder(value):
     numbers = find_numbers(value)
     
-    print("numbers: ")
-    print(numbers)
-
     first_number = convert_word_to_number(numbers[0])
     last_number = convert_word_to_number(numbers[-1])
 
-    print("first_number: " + first_number)
-    print("last_number: " + last_number)
-
     combined_number = first_number + last_number
 
-    print(combined_number)
     return combined_number
 
 total = 0
